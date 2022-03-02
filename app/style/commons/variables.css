@@ -1,0 +1,9 @@
+:root{
+    --background-color-page: hsl(218, 23%, 16%);
+    --background-color-quotation: hsl(217, 19%, 24%);
+    --color-text: hsl(193, 38%, 86%);
+    --background-color-dice: hsl(150, 100%, 66%);
+    --color-title: hsl(150, 100%, 66%);
+    --box-shadow-quotation-color: hsl(217, 19%, 38%);
+    --font-family: 'Manrope', sans-serif;
+}

@@ -1,0 +1,17 @@
+.card-advice__blockquote{
+    width: 100%;
+    margin: 24px auto;
+}
+
+.card-advice__quote{
+    font-size: 28px;
+    color: var(--color-text);
+    display: block;
+    padding: 24px;
+    margin-bottom: 6px;
+}
+
+.card-advice__detail img{
+    max-width: 100%;
+    width: 100%;
+}

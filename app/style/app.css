@@ -1,0 +1,12 @@
+@import url('./commons/variables.css');
+@import url('./components/card.css');
+@import url('./components/title.css');
+@import url('./components/quotation.css');
+@import url('./components/button.css');
+@import url('./components/footer.css');
+
+body{
+    font-weight: 800;
+    background-color: var(--background-color-page);
+    font-family: var(--font-family);
+}

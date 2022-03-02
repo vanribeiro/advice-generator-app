@@ -1,0 +1,22 @@
+.card-advice-generator{
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-advice__container{
+    padding: 60px 24px;
+    text-align: center;
+    background-color: var(--background-color-quotation);
+    border-radius: 10px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 767px){
+    .card-advice__container{
+        width: 85%;
+    }
+}

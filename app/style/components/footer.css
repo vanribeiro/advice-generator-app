@@ -1,0 +1,10 @@
+.card-advice__attribution { 
+    font-size: 11px; 
+    font-weight: 300;
+    text-align: center; 
+    color: white;
+}
+
+.card-advice__attribution a { 
+    color: var(--background-color-dice); 
+}

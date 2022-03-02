@@ -1,0 +1,28 @@
+.card-advice__dice{
+    position: relative;
+    z-index: 1;
+    top: -30px;
+    background-color: var(--background-color-dice);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: none;
+}
+
+.card-advice__dice:hover{
+    box-shadow: 1px 1px 30px var(--background-color-dice);
+    cursor: pointer;
+    transition: box-shadow ease-in-out 0.2s;
+    animation: spinner 0.5s 0.1s linear;
+}
+
+@keyframes spinner {
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(180deg);
+    }
+}
