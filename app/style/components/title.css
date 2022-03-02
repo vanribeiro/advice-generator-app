@@ -1,7 +1,7 @@
 .card-advice__title{
     text-transform: uppercase;
     color: var(--color-title);
-    letter-spacing: 6px;
+    letter-spacing: 3px;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
 }
